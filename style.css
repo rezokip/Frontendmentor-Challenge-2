@@ -1,0 +1,134 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  }
+  
+* {
+ font-family: Outfit;
+ color: hsl(215, 51%, 70%);
+ margin: 0;
+ padding: 0;
+ }
+
+body {
+ background-color: hsl(217, 54%, 11%);
+ display: grid;
+ place-content: center;
+ min-height: 100vh;
+}
+
+
+img,
+svg,
+png{
+  display: blocK;
+  max-width: 100%;
+}
+
+p {
+font-weight: 300;
+font-size: 18px;
+}
+.creator-name,
+h2{
+  color: white;
+}
+h2{
+  font-weight: 600;
+}
+
+.crypto-currency{
+  color:hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
+
+
+
+
+
+article{
+
+  max-width: 21em;
+  padding:1.5em;
+  background-color:hsl(216, 50%, 16%);
+  border-radius: 15px;
+}
+.image-container{ 
+ 
+  position: relative;
+  margin-bottom:  25px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.hover-container{
+  display:none;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.icon-view{
+ position: absolute;
+ left: 42%;
+ top:42%;
+
+  
+ 
+  
+}
+
+.definition{
+  margin:20px 0;
+  line-height: 25px;
+}
+.information{
+  display:flex;
+  justify-content: space-between;
+  border-bottom: 0.1px solid hsl(215, 32%, 27%);
+  padding-bottom: 15px;
+}
+.left-site,
+.right-site{ 
+display:flex;
+align-items: center;  
+}
+.information p{
+  margin-left: 7px;
+}
+.creator-container{ 
+  margin-top:15px;
+  display: flex;
+  align-items: center;
+  
+}
+.avatar-image-container{
+  max-width: 34px;
+  border-radius: 17px;
+  border:0.7px solid white;
+  margin-right: 20px;
+}
+
+.hover-container:hover{
+background-color: hsl(178, 100%, 50%);
+cursor: pointer;
+}
+
+h2:hover,
+.creator-name:hover{
+  color:hsl(178, 100%, 50%);
+  cursor: pointer;
+}
